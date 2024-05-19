@@ -10,6 +10,17 @@
         <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
     </picture>
 
+        <!-- for beauty 留个空行好看点 -->
+    <div>&nbsp;</div>
+
+    <!-- profile logo 个人资料徽标 -->
+    <div>
+        <a href="https://blog.imzjw.cn"><img src="https://img.shields.io/badge/Website-博客-8c36db" /></a>&emsp;
+        <a href="https://space.bilibili.com/384967695/"><img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" /></a>&emsp;
+        <!-- visitor -->
+        <img src="https://komarev.com/ghpvc/?username=sudojia&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
+    </div>
+
     
 
 </div>
