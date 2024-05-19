@@ -2,9 +2,7 @@
 
  <!-- dynamic typing effect 动态打字效果 -->
   <div>
-    <a href="https://blog.sunguoqi.com/">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);小孙同学祝您今天愉快!&center=true&size=27" />
-    </a>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&separator=%3C&lines=System.out.println(%22Hello+World%22);%3C%E6%AC%A2%E8%BF%8E%E8%AE%BF%E9%97%AE+sudojia+%E7%9A%84+GitHub+%E4%B8%BB%E9%A1%B5" alt="Typing SVG" /></a>
   </div>
 
    <!-- knock code pictures 敲代码的图片 -->
