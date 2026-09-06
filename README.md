@@ -1,19 +1,29 @@
 <div align="center">
 
 
-  <!-- 顶部艺术 Banner (动态波浪与极光渐变) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,35,16,185,129&height=180&section=header&text=Hi%2C%20I'm%20sudojia%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=一个小人物罢了%20·%20心怀热爱，奔赴山海%20✨&descFontSize=18&descAlignY=62&descAlign=50" width="100%" alt="Header" />
+  <!-- ==================== 1. 顶部赛博极客炫彩切角 Banner ==================== -->
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=220&section=header&text=SUDOJIA%20%2F%2F%20DEV%20%E2%9A%A1&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%BD%A2%E4%BA%86%20%C2%B7%20%E4%BB%A3%E7%A0%81%E4%B8%8D%E7%86%84%EF%BC%8C%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C%20%E2%9C%A8&descFontSize=18&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
 
-  <!-- 动态打字机效果 (双语轮播) -->
-  <a href="https://blog.imzjw.cn">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=1000&color=10b981&center=true&vCenter=true&multiline=false&width=620&height=45&lines=一个小人物罢了，但步履不停+🌱;专注于+Java+%2F+自动化运维+%2F+实用开源工具;Building+useful+tools+with+GitHub+Actions+%26+Docker;Welcome+to+my+digital+garden+✨" alt="Typing SVG" />
-  </a>
+  <!-- ==================== 2. 动态音乐播放器视效 (Coding BGM Visualizer) ==================== -->
 
   <p align="center">
-    <a href="https://blog.imzjw.cn"><img src="https://img.shields.io/badge/Blog-blog.imzjw.cn-10b981?style=flat-square&logo=blogger&logoColor=white" alt="Blog" /></a>
-    <a href="https://github.com/sudojia"><img src="https://img.shields.io/github/followers/sudojia?label=Followers&style=flat-square&color=2563eb&logo=github" alt="Followers" /></a>
-    <img src="https://img.shields.io/badge/Location-Guangzhou%2C%20China-f59e0b?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
-    <img src="https://komarev.com/ghpvc/?username=sudojia&label=Profile%20Views&color=8b5cf6&style=flat-square" alt="Views" />
+    <img src="./assets/audio_visualizer.svg" width="100%" alt="Audio Visualizer" />
+  </p>
+
+
+  <!-- ==================== 3. 动态打字机效果 (全编码保障 0 报错) ==================== -->
+  <a href="https://blog.imzjw.cn">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=false&width=650&height=45&lines=%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%BD%A2%E4%BA%86%EF%BC%8C%E4%BD%86%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C%20%F0%9F%8C%B1;%E4%B8%93%E6%B3%A8%E4%BA%8E%20Java%20%E4%B8%8E%20%E8%87%AA%E5%8A%A8%E5%8C%96%E8%BF%90%E7%BB%B4%20%F0%9F%9B%A0%EF%B8%8F;Building%20awesome%20tools%20with%20GitHub%20Actions%20%26%20Docker%20%F0%9F%90%B3;Welcome%20to%20sudojia%27s%20digital%20space%20%E2%9C%A8" alt="Typing SVG" />
+  </a>
+
+  <!-- ==================== 4. 炫光徽章阵列 ==================== -->
+
+  <p align="center">
+    <a href="https://blog.imzjw.cn"><img src="https://img.shields.io/badge/BLOG-blog.imzjw.cn-00F5D4?style=for-the-badge&logo=blogger&logoColor=black" alt="Blog" /></a>
+    <a href="https://github.com/sudojia"><img src="https://img.shields.io/github/followers/sudojia?label=FOLLOWERS&style=for-the-badge&color=7B2CBF&logo=github" alt="Followers" /></a>
+    <a href="https://github.com/sudojia/AutoTaskScript"><img src="https://img.shields.io/badge/STARS-890%2B-FEE440?style=for-the-badge&logo=apachespark&logoColor=black" alt="Stars" /></a>
+    <img src="https://img.shields.io/badge/LOCATION-GUANGZHOU%20CN-FF007F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+    <img src="https://komarev.com/ghpvc/?username=sudojia&label=PROFILE%20VIEWS&color=00BBF9&style=for-the-badge" alt="Views" />
   </p>
 
 
@@ -21,39 +31,40 @@
 
 ---
 
-### 🙋‍♂️ 关于我 / About Me
+### 💻 开发者全息终端 / Developer Terminal
 
-```yaml
-name: sudojia
-bio: "一个小人物罢了"
-location: "Guangzhou, Guangdong, China 🇨🇳"
-roles:
-  - "☕ Java / Spring Boot 后端生态开发者"
-  - "⚡ 自动化任务、青龙面板、高频脚本探索者"
-  - "🐙 GitHub Actions CI/CD 自动化流水线折腾玩家"
-  - "🐳 Docker 容器化部署与私有服务搭建爱好者"
-blog: "https://blog.imzjw.cn"
-quote: "让重复劳动自动化，把时间留给更有价值的思考与生活 🚀"
-```
+<div align="center">
+  <!-- 动效流光终端卡片 (含红黄绿按钮、菜狗徽标、Fastfetch 系统配置、跳动光标) -->
+  <img src="./assets/cyber_terminal.svg" width="100%" alt="Cyber Terminal" />
+</div>
+
 
 ---
 
-### 🛠️ 技能栈与工具箱 / Tech Stack
+### 🐍 贪吃蛇吃掉贡献图 / Contribution Snake
+
+<div align="center">
+  <!-- 自动巡逻贡献图的贪吃蛇动画 -->
+  <img src="./assets/snake_preview.svg" width="100%" alt="Contribution Snake" />
+</div>
+
+
+---
+
+### 🛠️ 技能军火库 / Tech Stack & Tools
 
 <div align="center">
 
 
-  <!-- 编程语言与核心框架 -->
-
+  <p><b>☕ 核心语言 & 开发框架</b></p>
   <p>
-    <img src="https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,python,bash,html,css" alt="Languages & Frameworks" />
+    <a href="#"><img src="https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,python,bash,html,css" alt="Languages" /></a>
   </p>
 
 
-  <!-- DevOps、数据库与工具 -->
-
+  <p><b>⚡ 自动化运维、容器 & 数据中枢</b></p>
   <p>
-    <img src="https://skillicons.dev/icons?i=githubactions,docker,linux,nginx,mysql,redis,git,idea" alt="DevOps & Tools" />
+    <a href="#"><img src="https://skillicons.dev/icons?i=githubactions,docker,linux,nginx,mysql,redis,git,idea,vscode,maven,postman" alt="Tools" /></a>
   </p>
 
 
@@ -61,43 +72,55 @@ quote: "让重复劳动自动化，把时间留给更有价值的思考与生活
 
 ---
 
-### 🌟 精选开源项目 / Featured Projects
+### 🚀 精选开源代表作 / Featured Repositories
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4 align="center">📦 <a href="https://github.com/sudojia/AutoTaskScript">AutoTaskScript</a></h4>
+      <h3 align="center">📦 <a href="https://github.com/sudojia/AutoTaskScript">AutoTaskScript</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/github/stars/sudojia/AutoTaskScript?style=flat-square&color=10b981" />
-        <img src="https://img.shields.io/github/forks/sudojia/AutoTaskScript?style=flat-square&color=3b82f6" />
+        <img src="https://img.shields.io/github/stars/sudojia/AutoTaskScript?style=for-the-badge&color=00F5D4&logo=github" />
+        <img src="https://img.shields.io/github/forks/sudojia/AutoTaskScript?style=for-the-badge&color=7B2CBF" />
       </p>
-      <p align="center">自动化任务脚本助手，支持青龙面板及 Docker 部署，开箱即用、高效稳定的自动化工具集。</p>
+      <p align="center">🔥 <b>自动化任务脚本助手</b><br />支持青龙面板及 Docker 快速部署，高频自动化任务的一体化开箱即用解决方案。</p>
+      <p align="center">
+        <code>JavaScript</code> · <code>Docker</code> · <code>Qinglong</code> · <code>Automation</code>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4 align="center">🚀 <a href="https://github.com/sudojia/actions-deploy-springboot">actions-deploy-springboot</a></h4>
+      <h3 align="center">🚀 <a href="https://github.com/sudojia/actions-deploy-springboot">actions-deploy-springboot</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/github/stars/sudojia/actions-deploy-springboot?style=flat-square&color=f59e0b" />
-        <img src="https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=flat-square" />
+        <img src="https://img.shields.io/badge/CI%2FCD-GITHUB_ACTIONS-00BBF9?style=for-the-badge&logo=githubactions&logoColor=white" />
+        <img src="https://img.shields.io/github/stars/sudojia/actions-deploy-springboot?style=for-the-badge&color=FEE440" />
       </p>
-      <p align="center">使用 GitHub Actions 自动化构建打包，并将 Spring Boot 项目安全持续部署至云服务器。</p>
+      <p align="center">⚡ <b>Spring Boot 持续交付工作流</b><br />使用 GitHub Actions 自动构建打包 Maven 项目，并零停机持续部署发布至云端 Linux 服务器。</p>
+      <p align="center">
+        <code>Java</code> · <code>Spring Boot</code> · <code>CI/CD</code> · <code>Linux</code>
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4 align="center">🛡️ <a href="https://github.com/sudojia/comment_backups">comment_backups</a></h4>
+      <h3 align="center">🛡️ <a href="https://github.com/sudojia/comment_backups">comment_backups</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/github/stars/sudojia/comment_backups?style=flat-square&color=06b6d4" />
-        <img src="https://img.shields.io/badge/Backup-Twikoo-10b981?style=flat-square" />
+        <img src="https://img.shields.io/badge/BACKUP-TWIKOO-10b981?style=for-the-badge&logo=shield&logoColor=white" />
+        <img src="https://img.shields.io/github/stars/sudojia/comment_backups?style=for-the-badge&color=FF007F" />
       </p>
-      <p align="center">使用 GitHub Actions 定时自动容灾备份 Twikoo 评论系统数据，保障个人独立博客评论资产安全。</p>
+      <p align="center">🔒 <b>评论数据自动灾备</b><br />使用 GitHub Actions 定时自动容灾备份 Twikoo 评论系统数据，保障独立博客数据高枕无忧。</p>
+      <p align="center">
+        <code>Java</code> · <code>GitHub Actions</code> · <code>Twikoo</code> · <code>Disaster Recovery</code>
+      </p>
     </td>
     <td width="50%" valign="top">
-      <h4 align="center">🔍 <a href="https://github.com/sudojia/hexo-auto-submit-urls">hexo-auto-submit-urls</a></h4>
+      <h3 align="center">🔍 <a href="https://github.com/sudojia/hexo-auto-submit-urls">hexo-auto-submit-urls</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/github/stars/sudojia/hexo-auto-submit-urls?style=flat-square&color=8b5cf6" />
-        <img src="https://img.shields.io/badge/SEO-AutoSubmit-blueviolet?style=flat-square" />
+        <img src="https://img.shields.io/badge/SEO-AUTO_SUBMIT-7B2CBF?style=for-the-badge&logo=google&logoColor=white" />
+        <img src="https://img.shields.io/github/stars/sudojia/hexo-auto-submit-urls?style=for-the-badge&color=00F5D4" />
       </p>
-      <p align="center">基于 GitHub Actions 自动化向各大主流搜索引擎提交网站最新 URL，加速 Hexo 站点收录。</p>
+      <p align="center">🌐 <b>Hexo 站点搜索引擎自动提交</b><br />自动化向各大主流搜索引擎批量提交 Hexo 博客最新链接，加速个人独立站点收录与权重积累。</p>
+      <p align="center">
+        <code>Java</code> · <code>Hexo</code> · <code>SEO</code> · <code>Search Engines</code>
+      </p>
     </td>
   </tr>
 </table>
@@ -105,46 +128,65 @@ quote: "让重复劳动自动化，把时间留给更有价值的思考与生活
 
 ---
 
-### 📊 开发者活动数据 / GitHub Stats
+### 📊 赛博数据雷达与分析 / Cyber Stats & Analysis
 
 <div align="center">
 
 
-  <!-- GitHub Stats 卡片 (支持 Dark/Light 双模式自适应) -->
+  <!-- 1. 24小时提交雷达图 -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sudojia&theme=radical" width="100%" alt="Profile Details" />
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sudojia&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=10b981&icon_color=10b981&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sudojia&show_icons=true&theme=default&hide_border=true&title_color=0969da" />
-    <img src="https://github-readme-stats.vercel.app/api?username=sudojia&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="sudojia's GitHub Stats" />
-  </picture>
+  <br /><br />
 
+  <!-- 2. 数据汇总卡片 与 提交语言分布环形图 -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sudojia&theme=radical" width="49%" alt="Stats Card" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sudojia&theme=radical" width="49%" alt="Commit Languages" />
 
-  <!-- 语言占比统计卡片 (支持 Dark/Light 双模式自适应) -->
+  <br /><br />
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sudojia&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=10b981&text_color=c9d1d9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sudojia&layout=compact&theme=default&hide_border=true&title_color=0969da" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sudojia&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
-  </picture>
-
-
-  <br />
-
-  <!-- 连击打卡记录 (Streak Stats) -->
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sudojia&theme=tokyonight&hide_border=true&background=0d1117&ring=10b981&fire=10b981&currStreakLabel=10b981" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sudojia&theme=default&hide_border=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sudojia&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </picture>
-
+  <!-- 3. 语言仓库占比 与 燃烧火焰打卡记录 -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sudojia&theme=radical" width="49%" alt="Repos per Language" />
+  <img src="https://streak-stats.demolab.com/?user=sudojia&theme=radical&fire=FF4D4D&ring=00F5D4&currStreakLabel=00F5D4" width="49%" alt="Streak Stats" />
 
 </div>
 
 ---
 
+### 🕹️ 更多探索 / More About Me
+
+<details>
+  <summary><b>💻 极客数码装备清单 (My Gear & Workspace) <i>[点击展开]</i></b></summary>
+  <br />
+
+
+| 类别               | 装备型号 / 工具                  | 体验评语                             |
+| :----------------- | :------------------------------- | :----------------------------------- |
+| **主生产力主机**   | MacBook Pro / Linux Workstation  | 稳定且高能的开发基石                 |
+| **输入外设**       | 客制化机械键盘 (红轴 / 茶轴)     | 码字如飞，指尖跳跃的节奏感           |
+| **开发环境 (IDE)** | IntelliJ IDEA Ultimate + VS Code | 全栈与运维的最佳拍档                 |
+| **终端环境**       | iTerm2 + Oh My Zsh + Starship    | 高颜值且顺手的命令行体验             |
+| **云端基地**       | 阿里云 / 腾讯云 Linux 轻量服务器 | 托管各类自动化脚本与个人 Docker 服务 |
+
+</details>
+
+<details>
+  <summary><b>☕ 交流与摸鱼 (Let's Connect) <i>[点击展开]</i></b></summary>
+  <br />
+
+
+  - 🌐 **个人博客**：[blog.imzjw.cn](https://blog.imzjw.cn)（技术文章、踩坑记录与折腾日常）
+  - 💬 **GitHub Discussions**：欢迎在各个仓库提交 Issue 或参与讨论
+  - 📬 **关于开源**：热爱开源分享，喜欢用代码把现实中繁琐的事情自动化
+  - ⭐ **如果你喜欢我的开源项目**，欢迎给 [AutoTaskScript](https://github.com/sudojia/AutoTaskScript) 点一个 Star 支持一下！
+
+</details>
+
+---
+
+<!-- ==================== 底部流光曲线 ==================== -->
+
 <div align="center">
-  <p>🌱 <i>“码出世界，向光而行。”</i></p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,24,35,16,185,129&height=90&section=footer" width="100%" alt="Footer" />
+  <p>🌱 <i>“一个小人物罢了，但步履不停，代码不熄。”</i></p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=90&section=footer" width="100%" alt="Footer Wave" />
 </div>
 
