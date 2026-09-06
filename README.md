@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- ==================== 1. 顶部赛博流光全宽波浪 Banner (在线实时生成，完整铺满) ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=220&section=header&text=SUDOJIA%20%2F%2F%20DEV%20%E2%9A%A1&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%BD%A2%E4%BA%86%20%C2%B7%20%E4%BB%A3%E7%A0%81%E4%B8%8D%E7%86%84%EF%BC%8C%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C%20%E2%9C%A8&descFontSize=16&descAlignY=65" width="100%" alt="Header Banner" />
+  <!-- ==================== 1. 顶部专属赛博全宽 Banner (完整铺满，菜狗徽标与状态指示) ==================== -->
+  <img src="./assets/banner.svg" width="100%" alt="Header Banner" />
 
   <!-- ==================== 2. 每日极客金句 (云端实时更新 API) ==================== -->
   <p align="center">
@@ -126,15 +126,15 @@
 
   <br /><br />
 
-  <!-- 2. 数据大盘组合：左边综合指标汇总，右边连击打卡记录 (严格 340x200 等高像素对齐) -->
+  <!-- 2. 实时综合统计 与 提交语言分布环形图 (等高对齐) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sudojia&theme=radical" width="49%" alt="Live Stats" />
-  <img src="https://streak-stats.demolab.com/?user=sudojia&theme=radical&card_width=340&border_radius=10&fire=FF007F&ring=00F5D4&currStreakLabel=00F5D4&currStreakNum=00F5D4&sideNums=ffffff&sideLabels=c084fc&dates=94a3b8" width="49%" alt="Live Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sudojia&theme=radical" width="49%" alt="Commit Languages" />
 
   <br /><br />
 
-  <!-- 3. 双环形语言矩阵：左边按 Commit 统计，右边按 Repo 统计 (100% 相同尺寸对称呈现) -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=sudojia&theme=radical" width="49%" alt="Commit Languages" />
+  <!-- 3. 语言仓库占比分布 与 连击打卡记录 (经过精确高宽比计算，底部像素级严格对齐，彻底消除缺口) -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sudojia&theme=radical" width="49%" alt="Repos per Language" />
+  <img src="https://streak-stats.demolab.com/?user=sudojia&theme=radical&card_width=332&border_radius=10&fire=FF007F&ring=00F5D4&currStreakLabel=00F5D4&currStreakNum=00F5D4&sideNums=ffffff&sideLabels=c084fc&dates=94a3b8" width="49%" alt="Live Streak" />
 
 </div>
 
@@ -169,7 +169,7 @@
 
 ---
 
-<!-- ==================== 底部流光波浪曲线 (在线实时) ==================== -->
+<!-- ==================== 底部流光波浪曲线 ==================== -->
 <div align="center">
   <p>🌱 <i>“一个小人物罢了，但步履不停，代码不熄。”</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=90&section=footer" width="100%" alt="Footer Wave" />
