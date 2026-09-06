@@ -1,15 +1,16 @@
 <div align="center">
 
+  <!-- ==================== 1. 顶部赛博极客炫彩全宽 Banner (完整铺满，无任何斜切) ==================== -->
+  <img src="./assets/banner.svg" width="100%" alt="Header Banner" />
 
-  <!-- ==================== 1. 顶部赛博极客炫彩切角 Banner ==================== -->
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=220&section=header&text=SUDOJIA%20%2F%2F%20DEV%20%E2%9A%A1&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%BD%A2%E4%BA%86%20%C2%B7%20%E4%BB%A3%E7%A0%81%E4%B8%8D%E7%86%84%EF%BC%8C%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C%20%E2%9C%A8&descFontSize=18&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+  <!-- 备选方案：若想使用在线波浪版，可将上方替换为：
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=220&section=header&text=SUDOJIA%20%2F%2F%20DEV%20%E2%9A%A1&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%BA%BA%E7%89%A9%E7%BD%A2%E4%BA%86%20%C2%B7%20%E4%BB%A3%E7%A0%81%E4%B8%8D%E7%86%84%EF%BC%8C%E6%AD%A5%E5%B1%A5%E4%B8%8D%E5%81%9C%20%E2%9C%A8&descFontSize=16&descAlignY=65" width="100%" />
+  -->
 
   <!-- ==================== 2. 动态音乐播放器视效 (Coding BGM Visualizer) ==================== -->
-
   <p align="center">
     <img src="./assets/audio_visualizer.svg" width="100%" alt="Audio Visualizer" />
   </p>
-
 
   <!-- ==================== 3. 动态打字机效果 (全编码保障 0 报错) ==================== -->
   <a href="https://blog.imzjw.cn">
@@ -17,7 +18,6 @@
   </a>
 
   <!-- ==================== 4. 炫光徽章阵列 ==================== -->
-
   <p align="center">
     <a href="https://blog.imzjw.cn"><img src="https://img.shields.io/badge/BLOG-blog.imzjw.cn-00F5D4?style=for-the-badge&logo=blogger&logoColor=black" alt="Blog" /></a>
     <a href="https://github.com/sudojia"><img src="https://img.shields.io/github/followers/sudojia?label=FOLLOWERS&style=for-the-badge&color=7B2CBF&logo=github" alt="Followers" /></a>
@@ -25,7 +25,6 @@
     <img src="https://img.shields.io/badge/LOCATION-GUANGZHOU%20CN-FF007F?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
     <img src="https://komarev.com/ghpvc/?username=sudojia&label=PROFILE%20VIEWS&color=00BBF9&style=for-the-badge" alt="Views" />
   </p>
-
 
 </div>
 
@@ -38,7 +37,6 @@
   <img src="./assets/cyber_terminal.svg" width="100%" alt="Cyber Terminal" />
 </div>
 
-
 ---
 
 ### 🐍 贪吃蛇吃掉贡献图 / Contribution Snake
@@ -48,25 +46,21 @@
   <img src="./assets/snake_preview.svg" width="100%" alt="Contribution Snake" />
 </div>
 
-
 ---
 
 ### 🛠️ 技能军火库 / Tech Stack & Tools
 
 <div align="center">
 
-
   <p><b>☕ 核心语言 & 开发框架</b></p>
   <p>
     <a href="#"><img src="https://skillicons.dev/icons?i=java,spring,js,ts,nodejs,python,bash,html,css" alt="Languages" /></a>
   </p>
 
-
   <p><b>⚡ 自动化运维、容器 & 数据中枢</b></p>
   <p>
     <a href="#"><img src="https://skillicons.dev/icons?i=githubactions,docker,linux,nginx,mysql,redis,git,idea,vscode,maven,postman" alt="Tools" /></a>
   </p>
-
 
 </div>
 
@@ -125,13 +119,11 @@
   </tr>
 </table>
 
-
 ---
 
 ### 📊 赛博数据雷达与分析 / Cyber Stats & Analysis
 
 <div align="center">
-
 
   <!-- 1. 24小时提交雷达图 -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sudojia&theme=radical" width="100%" alt="Profile Details" />
@@ -158,21 +150,19 @@
   <summary><b>💻 极客数码装备清单 (My Gear & Workspace) <i>[点击展开]</i></b></summary>
   <br />
 
-
-| 类别               | 装备型号 / 工具                  | 体验评语                             |
-| :----------------- | :------------------------------- | :----------------------------------- |
-| **主生产力主机**   | MacBook Pro / Linux Workstation  | 稳定且高能的开发基石                 |
-| **输入外设**       | 客制化机械键盘 (红轴 / 茶轴)     | 码字如飞，指尖跳跃的节奏感           |
-| **开发环境 (IDE)** | IntelliJ IDEA Ultimate + VS Code | 全栈与运维的最佳拍档                 |
-| **终端环境**       | iTerm2 + Oh My Zsh + Starship    | 高颜值且顺手的命令行体验             |
-| **云端基地**       | 阿里云 / 腾讯云 Linux 轻量服务器 | 托管各类自动化脚本与个人 Docker 服务 |
+  | 类别 | 装备型号 / 工具 | 体验评语 |
+  | :--- | :--- | :--- |
+  | **主生产力主机** | MacBook Pro / Linux Workstation | 稳定且高能的开发基石 |
+  | **输入外设** | 客制化机械键盘 (红轴 / 茶轴) | 码字如飞，指尖跳跃的节奏感 |
+  | **开发环境 (IDE)** | IntelliJ IDEA Ultimate + VS Code | 全栈与运维的最佳拍档 |
+  | **终端环境** | iTerm2 + Oh My Zsh + Starship | 高颜值且顺手的命令行体验 |
+  | **云端基地** | 阿里云 / 腾讯云 Linux 轻量服务器 | 托管各类自动化脚本与个人 Docker 服务 |
 
 </details>
 
 <details>
   <summary><b>☕ 交流与摸鱼 (Let's Connect) <i>[点击展开]</i></b></summary>
   <br />
-
 
   - 🌐 **个人博客**：[blog.imzjw.cn](https://blog.imzjw.cn)（技术文章、踩坑记录与折腾日常）
   - 💬 **GitHub Discussions**：欢迎在各个仓库提交 Issue 或参与讨论
@@ -184,9 +174,7 @@
 ---
 
 <!-- ==================== 底部流光曲线 ==================== -->
-
 <div align="center">
   <p>🌱 <i>“一个小人物罢了，但步履不停，代码不熄。”</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,245,212,0,187,249,123,44,191,255,0,127&height=90&section=footer" width="100%" alt="Footer Wave" />
 </div>
-
