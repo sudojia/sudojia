@@ -138,7 +138,7 @@
 
   <!-- 3. 语言仓库占比 与 燃烧火焰打卡记录 -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sudojia&theme=radical" width="49%" alt="Repos per Language" />
-  <img src="https://streak-stats.demolab.com/?user=sudojia&theme=radical&fire=FF4D4D&ring=00F5D4&currStreakLabel=00F5D4" width="49%" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=sudojia&theme=radical&card_width=332&border_radius=10&fire=FF007F&ring=00F5D4&currStreakLabel=00F5D4&currStreakNum=00F5D4&sideNums=ffffff&sideLabels=c084fc&dates=94a3b8" width="49%" alt="Live Streak" />
 
 </div>
 
