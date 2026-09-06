@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 340" width="100%" height="100%">
+  <defs>
+    <!-- 渐变色彩定义 -->
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="35%" stop-color="#00BBF9" />
+      <stop offset="70%" stop-color="#7B2CBF" />
+      <stop offset="100%" stop-color="#FF007F" />
+    </linearGradient>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="neonTitle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="badgeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <style>
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes borderFlow {
+        0% { filter: hue-rotate(0deg); }
+        100% { filter: hue-rotate(360deg); }
+      }
+      .cursor { animation: blink 0.9s infinite; }
+      .cyber-glow { animation: borderFlow 12s linear infinite; }
+      .mono-text { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- 外层赛博流光外框 -->
+  <rect x="2" y="2" width="846" height="336" rx="14" fill="none" stroke="url(#cyberBorder)" stroke-width="2" class="cyber-glow" />
+
+  <!-- 终端背景 -->
+  <rect x="3" y="3" width="844" height="334" rx="13" fill="url(#termBg)" />
+
+  <!-- 顶部 macOS 窗口控制栏 -->
+  <path d="M3,3 L847,3 A13,13 0 0,1 847,38 L3,38 Z" fill="#111827" />
+  <line x1="3" y1="38" x2="847" y2="38" stroke="#1f2937" stroke-width="1" />
+
+  <!-- 🔴 🟡 🟢 经典三色按钮 -->
+  <circle cx="24" cy="20" r="6" fill="#ef4444" />
+  <circle cx="44" cy="20" r="6" fill="#f59e0b" />
+  <circle cx="64" cy="20" r="6" fill="#10b981" />
+
+  <!-- 终端标题 -->
+  <text x="425" y="24" fill="#9ca3af" font-size="12" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="0.5">
+    ⚡ sudojia@archlinux: ~ (fastfetch --profile dev)
+  </text>
+
+  <!-- 终端内容区 -->
+  <g transform="translate(26, 62)" class="mono-text">
+    <!-- Prompt 命令行 -->
+    <text x="0" y="0" font-size="13" font-weight="bold">
+      <tspan fill="#00F5D4">┌──(</tspan>
+      <tspan fill="#ec4899">sudojia</tspan>
+      <tspan fill="#00F5D4">@</tspan>
+      <tspan fill="#a855f7">matrix-box</tspan>
+      <tspan fill="#00F5D4">)-[</tspan>
+      <tspan fill="#fbbf24">~</tspan>
+      <tspan fill="#00F5D4">]</tspan>
+    </text>
+    <text x="0" y="20" font-size="13" font-weight="bold">
+      <tspan fill="#00F5D4">└─$ </tspan>
+      <tspan fill="#f9fafb">fastfetch --config sudojia.json</tspan>
+    </text>
+
+    <!-- 左侧 菜狗极客徽标卡片 -->
+    <g transform="translate(10, 38)">
+      <rect x="0" y="0" width="136" height="150" rx="12" fill="url(#badgeGlow)" stroke="#10b981" stroke-width="1.5" />
+      <text x="68" y="44" font-size="34" text-anchor="middle">🥬</text>
+      <text x="68" y="80" font-size="24" text-anchor="middle">🐶</text>
+      <rect x="18" y="96" width="100" height="20" rx="4" fill="#047857" opacity="0.8" />
+      <text x="68" y="110" font-size="11" fill="#ecfdf5" font-weight="bold" text-anchor="middle" letter-spacing="0.5">CA DOG · PRO</text>
+      <text x="68" y="132" font-size="9" fill="#6ee7b7" text-anchor="middle">blog.imzjw.cn</text>
+    </g>
+
+    <!-- 右侧 Fastfetch 系统输出参数 -->
+    <g transform="translate(170, 48)" font-size="13">
+      <text x="0" y="0" fill="url(#neonTitle)" font-weight="900" font-size="16" letter-spacing="0.5">sudojia@GitHub</text>
+      <text x="135" y="0" fill="#4b5563">---------------------------------------------</text>
+
+      <text x="0" y="22"><tspan fill="#00F5D4" font-weight="bold">OS</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#e5e7eb">Arch Linux x86_64 / macOS Sequoia</tspan></text>
+      <text x="0" y="42"><tspan fill="#00F5D4" font-weight="bold">Location</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#e5e7eb">Guangzhou, Guangdong, China 🇨🇳</tspan></text>
+      <text x="0" y="62"><tspan fill="#00F5D4" font-weight="bold">Uptime</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#e5e7eb">Coding 24/7 (Continuous Delivering)</tspan></text>
+      <text x="0" y="82"><tspan fill="#00F5D4" font-weight="bold">Core Stack</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#fbbf24">Java 21</tspan><tspan fill="#6b7280"> · </tspan><tspan fill="#34d399">Spring Boot 3</tspan><tspan fill="#6b7280"> · </tspan><tspan fill="#38bdf8">Node.js / TS</tspan></text>
+      <text x="0" y="102"><tspan fill="#00F5D4" font-weight="bold">Automation</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#e5e7eb">GitHub Actions · Docker · 青龙面板 · Shell</tspan></text>
+      <text x="0" y="122"><tspan fill="#00F5D4" font-weight="bold">Flagship</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#f43f5e" font-weight="bold">AutoTaskScript</tspan><tspan fill="#fbbf24"> (🌟 890+ Stars · 220+ Forks)</tspan></text>
+      <text x="0" y="142"><tspan fill="#00F5D4" font-weight="bold">Digital Garden</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#38bdf8">https://blog.imzjw.cn</tspan></text>
+      <text x="0" y="162"><tspan fill="#00F5D4" font-weight="bold">Motto</tspan><tspan fill="#6b7280">: </tspan><tspan fill="#34d399" font-style="italic">“一个小人物罢了，但步履不停 ✨”</tspan></text>
+    </g>
+
+    <!-- 底部终端调色板与闪烁光标 -->
+    <g transform="translate(170, 230)">
+      <rect x="0" y="0" width="26" height="13" rx="3" fill="#ef4444" />
+      <rect x="32" y="0" width="26" height="13" rx="3" fill="#f59e0b" />
+      <rect x="64" y="0" width="26" height="13" rx="3" fill="#10b981" />
+      <rect x="96" y="0" width="26" height="13" rx="3" fill="#00F5D4" />
+      <rect x="128" y="0" width="26" height="13" rx="3" fill="#38bdf8" />
+      <rect x="160" y="0" width="26" height="13" rx="3" fill="#a855f7" />
+      <rect x="192" y="0" width="26" height="13" rx="3" fill="#ec4899" />
+      <rect x="224" y="0" width="26" height="13" rx="3" fill="#f9fafb" />
+
+      <text x="270" y="11" font-size="12" fill="#9ca3af">sudojia@matrix:~$ <tspan fill="#00F5D4" class="cursor">█</tspan></text>
+    </g>
+  </g>
+</svg>
